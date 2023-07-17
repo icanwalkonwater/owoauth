@@ -1,0 +1,19 @@
+[workspace]
+members = [
+  "crates/mylib",
+  "apps/myapp",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.56"
+
+authors = ["icanwalkonwater <lucas.malandrino@gmail.com>"]
+description = "My cool project"
+keywords = []
+categories = []
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+documentation = "https://docs.rs/example"
+repository = "https://github.com/icanwalkonwater/project-template-rust"
