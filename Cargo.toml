@@ -1,5 +1,10 @@
 [workspace]
-members = ["crates/owoauth", "examples/axum"]
+members = [
+  "crates/owoauth",
+  "crates/owoauth-tower",
+  "crates/owoauth-axum",
+  "examples/axum",
+]
 
 [workspace.package]
 version = "0.1.0"

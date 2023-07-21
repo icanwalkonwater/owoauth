@@ -1,5 +1,5 @@
 [package]
-name = "owoauth"
+name = "owoauth-tower"
 version.workspace = true
 edition.workspace = true
 rust-version.workspace = true
@@ -16,8 +16,3 @@ repository.workspace = true
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-async-trait = "0.1.72"
-serde = { version = "1.0.174", features = ["derive"] }
-snafu = "0.7.5"
-uuid = { version = "1.4.1", features = ["v4", "serde"] }
-veil = "0.1.6"
