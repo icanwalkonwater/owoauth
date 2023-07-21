@@ -3,9 +3,12 @@
 version = 3
 
 [[package]]
-name = "myapp"
+name = "examples_axum"
 version = "0.1.0"
+dependencies = [
+ "owoauth",
+]
 
 [[package]]
-name = "mylib"
+name = "owoauth"
 version = "0.1.0"

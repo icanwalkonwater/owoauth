@@ -1,5 +1,5 @@
 {
-  "name": "Rust project",
+  "name": "OwOAuth",
   "build": {
     "dockerfile": "Dockerfile"
   },
